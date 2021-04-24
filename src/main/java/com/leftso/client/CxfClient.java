@@ -17,7 +17,7 @@ public class CxfClient {
 	public static void cl1() {
 		try {
 			// 接口地址
-			String address = "http://localhost:18090/services/CommonService?wsdl";
+			String address = "http://192.168.1.106:18090/services/CommonService?wsdl";
 			// 代理工厂
 			JaxWsProxyFactoryBean jaxWsProxyFactoryBean = new JaxWsProxyFactoryBean();
 			// 设置代理地址
